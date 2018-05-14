@@ -1,3 +1,3 @@
-﻿function test() {
-    alert("working");
+﻿function openNewWindow(url) {
+    window.open(url)
 }
