@@ -20,7 +20,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-              <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Kaikki 2018 MM kisoista</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Kaikki 2018 MM kisoista</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -60,5 +60,7 @@
     </environment>
 
     @RenderSection("Scripts", required: false)
+
+    <script src="@Url.Content("~/lib/bootstrap/dist/js/custom.js")"></script>
 </body>
 </html>
